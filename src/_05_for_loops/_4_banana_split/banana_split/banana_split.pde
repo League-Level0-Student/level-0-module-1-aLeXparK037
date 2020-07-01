@@ -3,13 +3,15 @@ int y = 250;
 void setup() {
   size(500,500);
   background(#0C30F2);
-}
-
-void draw() {
+  
   for (int a = 0; a < 3; a++) {
    
     text("Ice cream", x,y);
-    y = y - 5;
+    y = y - 20;
   }
-  text("banana", 250,100);
+  text("banana", x,y);
+}
+
+void draw() {
+  
 }
