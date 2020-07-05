@@ -1,8 +1,8 @@
-int x = 250;
-int y = 250;
+int x = 25;
+int y = 85;
 void setup() {
-size(500,500);
-  background(#0C30F2);
+
+  background(#FA0FDF);
   
   for (int a = 0; a < 3; a++) {
    
